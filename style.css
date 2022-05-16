@@ -1,0 +1,70 @@
+.card-header {
+    background-color: rgb(69, 177, 112);
+    color: white;
+    top: 0;
+    width: 100%;
+}
+
+.lawn-img {
+    background-image: url('grassy.avif');
+}
+
+.hidden-text {
+    color: white;
+}
+
+@media (max-width: 756px) {
+    .hidden-text {
+        display: none;
+    }
+}
+
+.form-group {
+    max-width: 40%;
+}
+
+.btn-primary {
+    background-color: rgb(69, 177, 112);
+}
+
+.form-check-label {
+    color: white;
+}
+
+.middle-color {
+    background-color: rgb(69, 177, 112);
+}
+
+.skills-bar {
+    background-color: rgb(133, 118, 118);
+    position: absolute;
+    width: 500px;
+    transform: translateY(-9em);
+
+}
+
+@media (max-width: 756px) {
+    .skills-bar {
+        transform: none;
+        position: unset;
+    }
+}
+
+.stars {
+    transform: translateY(-4em);
+}
+
+.good-review {
+    font-family: 'Permanent Marker', cursive;
+    font-size: x-large;
+}
+
+.review {
+    font-family: 'Permanent Marker', cursive;
+    font-size: large;
+}
+
+.review-color {
+    color: rgb(69, 177, 112);
+    text-align: center;
+}
